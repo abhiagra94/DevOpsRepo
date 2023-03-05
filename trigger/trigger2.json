@@ -1,0 +1,32 @@
+{
+	"name": "trigger2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Copy_Department",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-02-28T17:44:00Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"minutes": [
+						46
+					],
+					"hours": [
+						17
+					]
+				}
+			}
+		}
+	}
+}
