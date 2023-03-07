@@ -1,0 +1,10 @@
+{
+	"name": "keyvaultcloudconnection102",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://cloudconnection102.vault.azure.net/"
+		}
+	}
+}
